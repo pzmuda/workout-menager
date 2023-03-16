@@ -1,0 +1,25 @@
+@import 'assets/general';
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: $green;
+
+  // background-color: #C0C7D6;
+  // width: 100%;
+  // max-width: 500px;
+  // border-radius: 25px;
+  // box-shadow: 0 5px 15px -10px rgba(0, 0, 0, 0.3);
+  // padding-bottom: 30px;
+
+  &Time {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

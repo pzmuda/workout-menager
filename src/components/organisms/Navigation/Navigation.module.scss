@@ -1,0 +1,29 @@
+@import 'assets/general';
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: $darkGray;
+  position: fixed;
+  width: 100vw;
+
+  &_wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-around;
+  }
+
+  &_btn {
+    background-color: $green;
+    color: $white;
+    display: flex;
+    justify-content: center;
+    padding: 7px 20px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+  }
+}

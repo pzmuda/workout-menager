@@ -1,0 +1,38 @@
+@import 'assets/general';
+
+.exercise {
+  padding-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 24px;
+  // height:30%;
+  color: $green;
+
+  &_title_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+
+    &_item {
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      min-width: 130px;
+      padding-bottom: 15px;
+    }
+  }
+}
+
+.box{
+  height: 24px;
+  width: 24px;
+}

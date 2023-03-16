@@ -1,0 +1,11 @@
+@import 'assets/general';
+
+.button {
+  padding: 7px 20px;
+  background-color: $green;
+  border-radius: 50px;
+  border: none;
+  color: $white;
+  min-width: 140px;
+  font-weight: 300;
+}

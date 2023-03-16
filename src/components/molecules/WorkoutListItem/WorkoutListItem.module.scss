@@ -1,0 +1,33 @@
+@import 'assets/general';
+
+.workout_list_item {
+  padding-top: 50px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  &_title{
+    display: flex;
+    color: $white;
+    padding-left: 20px;
+  }
+
+  &_title_section{
+    font-size: 24px;
+    display: flex;
+    width: 100vw;
+  }
+
+  &_btn {
+    padding-left: 20px;
+    svg {
+      fill: $green;
+    }
+  }
+  &_container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+  }
+}

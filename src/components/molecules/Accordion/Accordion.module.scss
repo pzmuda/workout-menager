@@ -1,0 +1,22 @@
+@import 'assets/general';
+
+.accordion {
+  // border: 1px solid $green;
+  background-color: $green;
+  border-radius: 2px 2px 0 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 12px;
+
+  &_wrapper {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  &_content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-left: 1px solid $green;
+    border-right: 1px solid $green;
+  }
+}
